@@ -1,0 +1,45 @@
+{
+  "status":true,
+  "message":null,
+  "responseCode":0,
+  "entry":{
+      "total":2,
+      "logPage":{
+        "datas":[
+          {
+            "index": 1,
+            "imgUrl": "n/05/12/1494560178526_2997.jpg",
+            "item": {"id":109468920,"unit":"份","itemName":"散装金煌芒","barcode":"2238343000007","property":"700g","skuCode":"201144"},
+            "shop": {"id":20769,"shopName":"世纪联华（杭州复兴路店）"},
+            "operateDate": "2017-07-31 08:45:31",
+            "operateUser":"冯根才",
+            "operateDesc": "更新",
+            "operateContent":"{\"库存\":\"100\"}"
+          },
+          {
+          "index": 2,
+          "imgUrl": "n/05/12/1494560178526_2997.jpg",
+          "item":{"id":109468920,"unit":"份","itemName":"散装金煌芒","barcode":"2238343000007","property":"700g","skuCode":"201144"},
+          "shop":{"id":20769,"shopName":"世纪联华（杭州复兴路店）"},
+          "operateDate":"2017-07-28 18:02:51",
+          "operateUser":"系统用户",
+          "operateDesc":"更新",
+          "operateContent":"删除文本"
+          },
+          {
+          "index": 3,
+          "imgUrl": "n/05/12/1494560178526_2997.jpg",
+          "item":{"id":109468920,"unit":"份","itemName":"散装金煌芒","barcode":"2238343000007","property":"700g","skuCode":"201144"},
+          "shop":{"id":20769,"shopName":"世纪联华（杭州复兴路店）"},
+          "operateDate":"2017-07-28 18:02:51",
+          "operateUser":"系统用户",
+          "operateDesc":"更新",
+          "operateContent":"{\"图片\": \"n/05/12/1494560178526_2997.jpg\", \"商品名\": \"南非集成\", \"价格\": 1200}"
+          }
+          
+        ]
+      },    
+  "pageNo":1,
+  "pageSize":10
+  }
+}

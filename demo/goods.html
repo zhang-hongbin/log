@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>商品日志</title>
+    <link rel="stylesheet" href="//cdndaily.52shangou.com/one/layout_branch/daily/build/css/reset.css">
+    <link rel="stylesheet" href="//cdndaily.52shangou.com/one/layout_branch/daily/build/css/layout.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"><i class="icon icon-span"></i></div>
+        <ul class="nav-list">
+            <li class="sel"><a href="/kaweb/page/shop/profile"><i class="icon icon-shop"></i>我的店铺</a></li>
+            <li><a href="/kaweb/commodity"><i class="icon icon-goods"></i>商品中心</a></li>
+            <li><a href="/kaweb/page/shop/order/list"><i class="icon icon-center"></i>订单中心</a></li>
+            <li><a href="/kaweb/page/shop/order/bill"><i class="icon icon-bill"></i>账单中心</a></li>
+            <li><a href="/kaweb/page/shop/message/index"><i class="icon icon-message"></i><span class="type-badge" id="NODE_SHOW_MSG_STATUS">消息中心</span></a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="header-notice" id="NODE_SHOW_NOTICE">欢迎来到外卖通</div>
+        <div class="user-info"><img src="http://imgsize.52shangou.com/img/n/02/10/1486706449341_9816.png">早上好，张三！</div>
+    </div>
+    <div id="root"></div>
+    <script>
+        window.WMT = {
+            isOrganizeRole: true,
+            userInfo: {"userNick":"longying2017","userId":'126421820'},
+            orgInfo: {id: 72},
+            shopInfo: [{id: 1008187}, {id: 1008015},{id: 4499}],
+            sourceList: ["authorityManagement","ROLE_READ","ROLE_ADD_UPDATE","STAFF_READ","STAFF_ADD_UPDATE_DELETE","shopInfo","groupInfo","itemCenter","orderCenter","billCenter","dataStatistics", "ITEM_ADD","ITEM_DELETE","SHOP_READ","SHOP_EDIT","SHOP_AUTOSEND_UPDATE","ITEM_LOOK","ORDER_LOOK","ORDER_UPDATE","BILL_LOOK","STATISTICS_LOOK","ORGANIZE_DETAIL","ITEM_GROUP","appSetting","ORGANIZE_UPDATE","skuStock","SKU_READ","SKU_GROUP","SKU_ADD","SKU_UPDATE","SKU_DELETE","ITEM_EDIT_STOCK","ITEM_EDIT_PRICE","ITEM_EDIT_UPANDDOWN","ITEM_EDIT_BASIC","SKU_BULK_PROPERTIES_UPDATE","myMember","MEMBER_STAT","MEMBER_LIST_READ","MEMBER_LIST_EXPORT","MEMBER_DETAIL_READ","advCenter","ITEM_BATCH_UPLOAD_SKU_PIC","aftersalesService","AFTERSALES_LIST_COMMENT","ORDER_AFTERSALE","WORKORDER_MANAGE","WORKORDER_CREATE","STATISTICS_ORDER_REPORT","STATISTICS_COMMODITY_ANALYZE"]
+        }
+        window.FEC = window.WMT;
+    </script>
+    <script src="/dist/goods.js"></script>
+</body>
+</html>

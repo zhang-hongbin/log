@@ -1,0 +1,23 @@
+{
+  "status":true,
+  "message":null,
+  "responseCode":0,
+  "entry":{
+      "total":2,
+      "logPage":{
+        "datas":[
+          {
+            "shopId": 12345,
+            "shopName": "张宏斌的小店",
+            "operatorTime": "2017-07-31 08:45:31",
+            "operatorName":"冯根才",
+            "operateDesc": "更新",
+            "content":"运费 ¥5"
+          }
+          
+        ]
+      },    
+  "pageNo":1,
+  "pageSize":10
+  }
+}

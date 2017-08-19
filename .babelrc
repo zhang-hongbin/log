@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "import", 
+      { "libraryName": "antd", "style": "css" }
+    ], // `style: true` 会加载 less 文件
+    [
+      "transform-runtime", {
+        "helpers": true, // defaults to true
+        "polyfill": true, // defaults to true
+        "regenerator": true, // defaults to true
+        "moduleName": "babel-runtime" // defaults to "babel-runtime"
+      }
+    ],
+    "transform-decorators-legacy"
+  ]
+}
